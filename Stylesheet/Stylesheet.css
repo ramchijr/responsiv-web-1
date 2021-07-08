@@ -1,5 +1,6 @@
 .video {
+    margin: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
