@@ -1,2 +1,12 @@
+.video {
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.portfolio {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
 
