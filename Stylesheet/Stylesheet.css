@@ -1,12 +1,18 @@
-.video {
+h1{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video{
     margin: 100px;
     display: flex;
     justify-content: space-around;
 }
 
-.portfolio {
-    margin: 15px;
+.small{
+    width: 1300px;
     display: flex;
     justify-content: space-around;
-}
 
+}

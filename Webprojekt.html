@@ -7,11 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <link href="Stylesheet/Stylesheet.css" rel="stylesheet" type="text/css" />
+
     <title>Portfolio</title>
 </head>
-
 <body>
 
 <header>
@@ -26,10 +25,10 @@
                         <a class="nav-link" href="#carouselExampleIndicators">Carousel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#accordionExample">Informationen</a>
+                        <a class="nav-link" href="#">Informationen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#video">Videos</a>
+                        <a class="nav-link" href="#">Videos</a>
                     </li>
                 </ul>
             </div>
@@ -38,43 +37,42 @@
 </header>
 
 <main>
-    <nav class="portfolio">
-        <h1>Portfolio</h1>
-    </nav>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <h1>Portfolio</h1>
+    <div class="small">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Picture_1.jpg" class="d-block w-100" alt="Picture 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Picture_2.jpg" class="d-block w-100" alt="Picture 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Picture_3.jpg" class="d-block w-100" alt="Picture 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Picture_4.jpg" class="d-block w-100" alt="Picture 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="Picture_5.jpg" class="d-block w-100" alt="Picture 5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Picture_1.jpg" class="d-block w-100" alt="Picture 1">
-            </div>
-            <div class="carousel-item">
-                <img src="Picture_2.jpg" class="d-block w-100" alt="Picture 2">
-            </div>
-            <div class="carousel-item">
-                <img src="Picture_3.jpg" class="d-block w-100" alt="Picture 3">
-            </div>
-            <div class="carousel-item">
-                <img src="Picture_4.jpg" class="d-block w-100" alt="Picture 4">
-            </div>
-            <div class="carousel-item">
-                <img src="Picture_5.jpg" class="d-block w-100" alt="Picture 5">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <div class="accordion" id="accordionExample">
@@ -121,7 +119,7 @@
                     Picture 4
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <strong>Dieses Foto habe ich in unserer Haupt-stadt Bern geschossen. </strong>Genauer gesagt beim Reithaus, welches vielen ein Be-griff sein dürfte. Das Foto wurde mit mittleren Tiefenschärfe an einem eher unterbelichteten Ort geknipst. Ich bin mit dem Ergebnis sehr zufrieden. Das Outfit des Models in Kombination mit dem Graffiti besprayten Hintergrund soll den Betrachter in die Welt der Kunst hineingeziehen.
                 </div>
@@ -141,7 +139,6 @@
             </div>
         </div>
     </div>
-
     <div class="video" id="video">
         <div>
             <video width=312  height=570 controls>
@@ -157,11 +154,6 @@
 </main>
 
 <footer>
-
 </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
-</html>
