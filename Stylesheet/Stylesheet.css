@@ -9,10 +9,3 @@ h1{
     display: flex;
     justify-content: space-around;
 }
-
-.small{
-    width: 1300px;
-    display: flex;
-    justify-content: space-around;
-
-}
